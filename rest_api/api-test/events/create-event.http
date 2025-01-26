@@ -1,0 +1,9 @@
+POST http://localhost:8181/events
+Content-Type: application/json
+Authorization: $TOKEN
+{
+  "name": "Test Event",
+  "description": "This is a test event",
+  "location": "Test Location",
+  "datetime": "2021-01-01T00:00:00Z"
+}

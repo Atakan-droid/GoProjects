@@ -1,0 +1,2 @@
+POST http://localhost:8181/events/1/register
+Authorization: Bearer $TOKEN
